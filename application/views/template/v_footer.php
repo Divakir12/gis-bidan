@@ -34,7 +34,7 @@
 </script>
 
 <script>
-    function setToForm(latitude, longitude) {
+    function setToForm(Latitude, Longitude) {
         $('input[name="latitude"]').val(latitude);
         $('input[name="longitude"]').val(longitude);
     }

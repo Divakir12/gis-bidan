@@ -9,11 +9,11 @@
             <?php
             if ($this->session->flashdata('pesan')) {
                 echo '<div class="alert alert-success alert-dismissible">
-                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                ';
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    ';
                 echo $this->session->flashdata('pesan');
                 echo '<a href="#" class="alert-link"></a>.
-            </div>';
+                </div>';
             }
             ?>
             <?php echo form_open('user/login'); ?>
